@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../images/photo_2022-09-29_13-13-32.jpg");
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    left: 39%;
+    top: 35%;
+}
+
+.input1{
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+    background: transparent !important;
+    border: none !important;
+     color: white;
+}
+.input2 {
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+    background: transparent !important;
+    border: 1px solid white;
+    border: none !important;
+    color: white;
+}
+.login{
+    width: 350px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+.text{
+    text-decoration: none;
+    font-weight: bold;
+    text-align: end;
+    color: white;
+    position: relative;
+    left: 85px;
+}
+.bir-in{
+    width: 350px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+.ikki-in {
+    width: 350px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 15px;
+
+}
+::placeholder{
+    color: white;
+}
+    
